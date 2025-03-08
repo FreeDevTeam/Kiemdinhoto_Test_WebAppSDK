@@ -15,9 +15,23 @@ const RESPONSE_STATUS = {
   SERVICE_UNAVAILABLE: 503,
   GATEWAY_TIMEOUT: 504,
 };
-
+const TEST_ACCOUNT_PERSONAL = {
+  phoneNumber: '0942423640',
+  firstName: 'Nguyen Van A',
+  password: '0942423640Aa@',
+  email: 'nguyenvana@example.com'
+};
+const TEST_ACCOUNT_REGISTER = {
+  phoneNumber: '0123456789',
+  firstName: 'Nguyen Van A', 
+  password: '0123456789Aa@', 
+  vehiclePlateNumber: '29A-123.45', 
+  email: 'newemail@gmail.com' 
+};
 module.exports = {
   TEST_ACCOUNT,
   RESPONSE_STATUS,
   BASE_URL,
+  TEST_ACCOUNT_PERSONAL,
+  TEST_ACCOUNT_REGISTER,
 };
